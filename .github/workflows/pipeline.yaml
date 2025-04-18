@@ -3,11 +3,11 @@ name: codestylecheck
 on:
   push:
     branches:
-      - new
+      - master
 
   pull_request:
     branches:
-      - new
+      - master
 
 jobs:
   checkstyle_project:
